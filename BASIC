@@ -1,0 +1,85 @@
+🌟 C++ Overview
+
+C++ is a high-level, object-oriented programming language created by Bjarne Stroustrup in 1983.
+It is an extension of C, adding classes, objects, and OOP features.
+
+C++ is widely used for:
+
+System software (OS, drivers)
+
+Game development
+
+Competitive programming / DSA
+
+Desktop & embedded applications
+
+🔹 Key Features of C++
+Feature	Description
+Object-Oriented	Supports classes, objects, inheritance, polymorphism
+Performance	Faster execution like C (low-level memory control)
+Standard Template Library (STL)	Pre-built data structures & algorithms
+Cross-Platform	Works on Windows, Linux, macOS
+Rich Library Support	Input/output, math, graphics, and more
+🔹 Basic Syntax
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, C++!" << endl;
+    return 0;
+}
+
+
+#include <iostream> → input/output library
+
+cout → prints output
+
+endl → newline
+
+🔹 Common Data Types
+Type	Size (approx)	Example
+int	4 bytes	int age = 25;
+float	4 bytes	float pi = 3.14;
+double	8 bytes	double salary = 45000.50;
+char	1 byte	char grade = 'A';
+bool	1 byte	bool isPassed = true;
+🔹 OOP Concepts in C++
+
+Class & Object
+
+Inheritance
+
+Polymorphism (Compile-time & Runtime)
+
+Encapsulation
+
+Abstraction
+
+🔹 Example: Simple C++ Program With Input
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name;
+    int age;
+
+    cout << "Enter your name: ";
+    cin >> name;
+
+    cout << "Enter your age: ";
+    cin >> age;
+
+    cout << "Hello " << name << ", you are " << age << " years old." << endl;
+
+    return 0;
+}
+
+🔹 Why Use C++
+
+Fast execution for performance-critical apps
+
+Great for learning DSA and competitive programming
+
+Large community & open-source support
+
+Powers major applications like games and OS components
